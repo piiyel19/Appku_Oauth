@@ -13,9 +13,9 @@ website yang sah dengan token yang ada
 
 INSERT INTO oauth_clients (client_id, client_secret, redirect_uri) VALUES ("testclient", "testpass", "http://url_kalau_failed_macam_callback/");
 
-Langkah 4 : Test Authorized 
+- Langkah 4 : Test Authorized 
 
-Langkah 5 : Boleh call panggil -> http://localhost/oauth2/piiyel19/authorize.php?response_type=code&client_id=testclient&state=xyz
+- Langkah 5 : Boleh call panggil -> http://localhost/oauth2/piiyel19/authorize.php?response_type=code&client_id=testclient&state=xyz
 
 data pass di periksa kat engine auth 
 kalau valid dia akan pergi kemana yang disarankan (authorize.php)
